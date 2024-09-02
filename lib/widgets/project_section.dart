@@ -11,17 +11,10 @@ class ProjectsSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
-            padding: const EdgeInsets.fromLTRB(23, 4, 10, 4),
-            decoration: BoxDecoration(
-              color: Colors.teal,
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child: const Center(
-              child: Text(
-                'Projects',
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-              ),
+          const Center(
+            child: Text(
+              'Projects',
+              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
             ),
           ),
           const SizedBox(height: 10),
